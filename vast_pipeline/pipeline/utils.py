@@ -33,7 +33,7 @@ from vast_pipeline.models import (
 
 
 logger = logging.getLogger(__name__)
-dask.config.set({"multiprocessing.context": "fork"
+dask.config.set({"multiprocessing.context": "fork",
                  "dataframe.convert-string": False})
 
 
