@@ -1,6 +1,6 @@
 name: test-suite
 
-on: [pull-request]
+on: [pull_request]
 
 env:
   db_password: "postgres"
